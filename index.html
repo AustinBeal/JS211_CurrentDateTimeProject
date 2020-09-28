@@ -9,7 +9,13 @@
     <h1>Hello World!</h1>
     <hr/>
     <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
+    <button onclick="displayDate()">Click Me For Current Date</button>
+    <div>
+      <input type="number" name="NumberIn" id="NumberInHere" onkeyup="setIdSearch(this.value)">
+      <input type="button" onclick="numberToString()" value="Number to String">  </input >
+      <input type="text" name="NumberIn2" id="NumberInHere2" onkeyup="setIdSearch2(this.value)">
+      <input type="button" onclick="stringToNumber()" value="String to Number">  </input >
+    </div>
     <hr/>
   </body>
 </html>
